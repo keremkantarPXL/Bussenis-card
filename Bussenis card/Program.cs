@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("               Kerem Kantar");
+            Console.WriteLine("---------------------------------------------");
+            Console.ResetColor();
+
+            Console.WriteLine("Opleiding    : Graduaat Programmeren");
+            Console.WriteLine("klasgroep    : 1PROa");
+            Console.WriteLine("Leukste olod : Werkplekleren 1");
+
+
         }
     }
 }
